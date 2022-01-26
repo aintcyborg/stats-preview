@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-Regular.otf);
+  }
+*{
+    margin:0;
+    padding: 0;
+   
+}
+body{
+    background-color: #0A0C1B
+}
+.card.stats{
+    background-color: hsl(244, 38%, 16%);
+    
+}
+.image::after{
+    background:rgb(115, 45,165,0.7);
+}
+
+.pic.imgbg{
+    
+     background-color: rgba(174, 204, 175, 0.3);
+     opacity: 1;
+    /* background: linear-gradient(to top, #663189, #9907facc), url('../images/image-header-desktop.jpg') no-repeat; */
+    /* opacity: 4%; */
+    /* background: linear-gradient(to top, hsl(277, 64%, 61%),  hsl(277, 64%, 61%)), url('../images/im'age-header-desktop.jpg') no-repeat top center;
+}    */
+}
+
+h1,p{
+    color: white;
+}
+.row{
+    margin-top: 25% !important;
+    margin:auto;
+    /* justify-content: center!important; */
+}
+.stats-content{
+    
+    margin-top:10%;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+
+.stats-item{
+    margin-right: 3.5%;
+    margin-left: 4.5%; 
+    color: white;
+}
+span {
+    color: hsl(277, 64%, 61%);
+}
+.stats-item h2{
+    
+    color: white;
+    margin-top: 80;
+    margin: 2em 2em 0em 0;
+     
+    
+   
+  
+}
+
+
+.stats-item p{
+    color: white;
+    display: flex;
+    margin-right: 3.5%;
+    margin-left: 4.5%;
+    margin-bottom: 20px;
+    font-size: 15px;    
+    font-weight: 400;
+    color:hsla(0, 0%, 100%, 0.6);
+   /* word-spacing: 10%; */
+    /* padding: 10px ; */
+  
+    text-transform: uppercase;
+}
